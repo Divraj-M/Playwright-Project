@@ -24,7 +24,7 @@ report.generate({
     device: "Divraj's Laptop",
     platform: {
       name: "Windows",
-      version: "10",
+      version: "11",
     },
   },
   customData: {

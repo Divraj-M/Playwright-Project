@@ -12,8 +12,7 @@ module.exports = {
       "html:reports/cucumber-report.html",
       "json:test-results/cucumber-report.json",
     ],
-    publishQuiet: true,
-    parallel:2
+    publishQuiet: true
 
   }
 }
