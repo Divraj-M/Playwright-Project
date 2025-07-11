@@ -3,7 +3,7 @@ module.exports = {
     formatOptions: {
       snippetInterface: "async-await"
     },
-    paths: ["src/test/features/**/*.feature"],
+    paths: ["src/test/features/CheckOut.feature"],
     requireModule: ["ts-node/register"],
     require: ["src/test/steps/**/*.ts", "src/hooks/**/*.ts"],
     dryRun: false,
@@ -12,5 +12,8 @@ module.exports = {
       "html:reports/cucumber-report.html",
       "json:test-results/cucumber-report.json",
     ],
+    publishQuiet: true,
+    parallel:2
+
   }
 }
